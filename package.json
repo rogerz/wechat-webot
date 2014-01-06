@@ -27,13 +27,14 @@
     "jshint-stylish": "~0.1.3",
     "grunt-mocha-test": "~0.7.0",
     "should": "~2.1.1",
-    "mocha": "~1.16.2"
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11"
   },
   "dependencies": {
     "wechat": "~0.6.4",
     "webot": "~0.1.6"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "node_modules/.bin/grunt"
   }
 }
