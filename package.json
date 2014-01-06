@@ -21,7 +21,6 @@
   ],
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.0",
     "load-grunt-tasks": "~0.2.0",
     "time-grunt": "~0.1.1",
@@ -33,5 +32,8 @@
   "dependencies": {
     "wechat": "~0.6.4",
     "webot": "~0.1.6"
+  },
+  "scripts": {
+    "test": "grunt"
   }
 }

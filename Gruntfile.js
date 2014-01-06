@@ -10,8 +10,8 @@ module.exports = function (grunt) {
   grunt.initConfig({
     mochaTest: {
      options: {
-	ui: 'tdd'
-     }, 
+	ui: 'bdd'
+     },
      test: {
         src: ['test/**/*.js']
       }
