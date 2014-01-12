@@ -28,7 +28,8 @@
     "grunt-mocha-test": "~0.7.0",
     "should": "~2.1.1",
     "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11"
+    "grunt-cli": "~0.1.11",
+    "grunt-bumpup": "~0.5.0"
   },
   "dependencies": {
     "wechat": "~0.6.4",
