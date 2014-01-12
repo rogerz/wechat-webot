@@ -44,6 +44,11 @@ module.exports = function (grunt) {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'mochaTest']
       }
+    },
+    bumpup: {
+      files: [
+        'package.json'
+      ]
     }
   });
 

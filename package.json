@@ -1,6 +1,6 @@
 {
   "name": "wechat-webot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/wechat-webot.js",
   "description": "wechat platform middleware with webot as rule engine",
   "homepage": "https://github.com/rogerz/wechat-webot",
